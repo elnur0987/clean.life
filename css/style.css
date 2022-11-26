@@ -1,0 +1,1263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Lato, sans-serif;
+}
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    background:blue;
+    border-radius: 8px;
+    border: 3px solid #d4d4d4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+    transition: .6s;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+.col-4 {
+    width: 33.3%;
+    padding: 0 15px;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+.header-block {
+    background: fixed url("https://clean-time.com.ua/wp-content/uploads/2018/07/0883a4b49431ab2e6f21f94f748c4627.jpg")center/cover no-repeat;
+    height: 335px;
+    text-align: center;
+    display: flex;
+    padding-top: 200px;
+}
+
+.header-logo {
+    position: absolute;
+    height: 68px;
+    left:580px;
+    top: 20px ;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 170px;
+    line-height: 100px;
+    letter-spacing: 0.3px;
+    margin-bottom: 10px;
+    color:  #5F4D5D;
+}
+.header-title {
+   padding-left: 600px;
+    padding-top: 25px;
+}
+.header-img {
+   width: 50px;
+    height: 50px;
+}
+.header-menu{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.header-link {
+    font-size: 19px;
+    margin-right: 30px;
+    line-height: 30px;
+    color: black;
+    letter-spacing: 1.3px;
+}
+.header-link:hover{
+    font-size: 20px;
+    transition: 0.1s ease-in-out;
+}
+.header-select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #b0b0b0;
+    margin-right: 10px;
+}
+
+.hero {
+    background: fixed url("https://c-house.com.ua/uploads/posts/2020-04/1587640820_kak-pravilno-ubirat-v-kvartire.jpg") center/cover no-repeat;
+    height: 940px;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+.hero-content {
+    text-align: center;
+    color: #ffffff;
+}
+.hero-title {
+    position: absolute;
+    height: 30px;
+    left: 170px;
+    right: 89px;
+    top: 400px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    color: crimson;
+}
+.hero-text {
+    position: absolute;
+    height: 62px;
+    left: 400px;
+    right: 400px;
+    top: 510px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: blue;
+}
+.hero-text-1 {
+    position: absolute;
+    height: 62px;
+    left: 250px;
+    right: 140px;
+    top: 670px;
+    font-size: 38px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-2 {
+    position: absolute;
+    height: 62px;
+    left: 1px;
+    right: 5px;
+    top: 600px;
+    font-size:40px;
+    line-height: 40px;
+    letter-spacing: 0.2px;
+    color: white;
+}
+.hero-text-3 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1240px;
+    top: 750px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: rebeccapurple;
+}
+.hero-text-4 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1215px;
+    top: 800px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-5 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1190px;
+    top: 850px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-6 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1004px;
+    top: 900px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-7 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 955px;
+    top: 950px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-8 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1285px;
+    top: 1000px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-9 {
+    position: absolute;
+    height: 62px;
+    left: 25px;
+    right: 1054px;
+    top: 1050px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-10 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 750px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: rebeccapurple;
+}
+.hero-text-11 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 800px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-12 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 850px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-13 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 900px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-14 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 950px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-15 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 1000px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.hero-text-16 {
+    position: absolute;
+    height: 62px;
+    left: 800px;
+    right: 1px;
+    top: 1050px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room{
+    background: fixed url("https://apollo-olx.cdnvideo.ru/v1/files/pe7nvr03gjyy1-UZ/image;s=2000x1500") center/cover no-repeat;
+    height: 880px;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+.room-content {
+    text-align: center;
+    color: #ffffff;
+}
+.room-title {
+    position: absolute;
+    height: 30px;
+    left: 2px;
+    right: 1px;
+    top: 1300px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    color: black;
+}
+.room-text {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1200px;
+    top: 1450px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-1 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1137px;
+    top: 1500px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-2 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1309px;
+    top: 1550px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-3 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1245px;
+    top: 1600px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-4 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1193px;
+    top: 1650px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-5 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1193px;
+    top: 1700px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-6 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1209px;
+    top: 1750px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-7 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1093px;
+    top: 1800px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-8 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1178px;
+    top: 1850px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-9 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1284px;
+    top: 1900px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-10 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1262px;
+    top: 1950px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-11 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1281px;
+    top: 2000px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-12 {
+    position: absolute;
+    height: 62px;
+    left: 890px;
+    right: 1px;
+    top: 1450px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-13 {
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1500px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-14 {
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1550px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-15 {
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1600px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-16 {
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1650px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-17{
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1700px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-18{
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1750px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-19{
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1800px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-20{
+    position: absolute;
+    height: 62px;
+    left: 915px;
+    right: 1px;
+    top: 1800px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-21{
+    position: absolute;
+    height: 62px;
+    left: 917px;
+    right: 1px;
+    top: 1850px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-22{
+    position: absolute;
+    height: 62px;
+    left: 917px;
+    right: 1px;
+    top: 1900px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-23{
+    position: absolute;
+    height: 62px;
+    left: 917px;
+    right: 1px;
+    top: 1950px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.room-text-24{
+    position: absolute;
+    height: 62px;
+    left: 917px;
+    right: 1px;
+    top: 2000px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+
+
+.stir{
+    background: fixed url("https://stirka-kovrov.uz/wp-content/uploads/2021/01/stirka-kovrov-gilam-yuvish-1.jpg") center/cover no-repeat;
+    height: 880px;
+    text-align: center;
+    color: black;
+    display: flex;
+
+}
+.stir-content {
+    text-align: center;
+    color: #ffffff;
+}
+.stir-title {
+    position: absolute;
+    height: 30px;
+    left: 15px;
+    right: 1px;
+    top: 2200px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 66px;
+    line-height: 80px;
+    letter-spacing: 3.2px;
+    color: black;
+}
+.stir-text {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1300px;
+    top: 2330px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-1 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1034px;
+    top: 2380px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-2 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 1108px;
+    top: 2430px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-3 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 912px;
+    top: 2480px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-4 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 855px;
+    top: 2530px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-5 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 585px;
+    top: 2580px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-6 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 716px;
+    top: 2630px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-7 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 832px;
+    top: 2680px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-8 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 884px;
+    top: 2730px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-9 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 720px;
+    top: 2780px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-10 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 655px;
+    top: 2830px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-11 {
+    position: absolute;
+    height: 62px;
+    left: 4px;
+    right: 695px;
+    top: 2880px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-12 {
+    position: absolute;
+    height: 62px;
+    left: 1px;
+    right: 1259px;
+    top: 2930px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-13 {
+    position: absolute;
+    height: 62px;
+    left: 1px;
+    right: 1300px;
+    top: 2980px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-14 {
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2330px;
+    font-size:25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-15 {
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2380px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-16 {
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2430px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-17{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2480px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-18{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2530px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-19{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2580px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-20{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2630px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-21{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2680px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-22{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2730px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-23{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2780px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-24{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2830px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-25{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2880px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-26{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2930px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.stir-text-27{
+    position: absolute;
+    height: 62px;
+    left: 990px;
+    right: 1px;
+    top: 2980px;
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: black;
+}
+.arxit{
+    background: fixed url("https://krasotka.cc/wp-content/uploads/2021/06/1.jpg") center/cover no-repeat;
+    height: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arxit-title {
+    position: absolute;
+    height: 30px;
+    left: 170px;
+    right: 1px;
+    top: 3150px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 46px;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+    color: black;
+}
+.arxit-title-2 {
+    position: absolute;
+    height: 30px;
+    left: 1300px;
+    right: 1px;
+    top: 3150px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+    color: black;
+}
+.arxit-img{
+    width: 500px;
+    height: 600px;
+}
+.arxit-item-2 {
+    position: absolute;
+    top: 3200px;
+    left: 5px;
+    right: 900px;
+}
+.arxit-item {
+    position: absolute;
+    top: 3200px;
+    left: 900px;
+    right: 5px;
+}
+.kik{
+    background: fixed url("https://oboi.ru/upload/iblock/2c9/3.jpg") center/cover no-repeat;
+    height: 1280px;
+    text-align: center;
+    color: black;
+    display: flex;
+
+}
+.kik-content {
+    text-align: center;
+    color: #ffffff;
+}
+.kik-title {
+    position: absolute;
+    height: 30px;
+    left: 15px;
+    right: 1200px;
+    top: 4050px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 3.2px;
+    color: black;
+}
+.kik-text {
+    position: absolute;
+    height: 30px;
+    left: 15px;
+    right: 970px;
+    top: 4200px;
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-1 {
+    position: absolute;
+    height: 30px;
+    left: 350px;
+    right: 2px;
+    top: 4170px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: blue;
+}
+.kik-text-2 {
+    position: absolute;
+    height: 30px;
+    left: 30px;
+    right: 2px;
+    top: 4250px;
+    font-size:30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-3 {
+    position: absolute;
+    height: 30px;
+    left: 15px;
+    right: 1140px;
+    top: 4400px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: blue;
+}
+.kik-text-4 {
+    position: absolute;
+    height: 30px;
+    left: 15px;
+    right: 895px;
+    top: 4500px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-5 {
+    position: absolute;
+    height: 30px;
+    left: 330px;
+    right: 2px;
+    top: 4400px;
+    font-size:30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: blue;
+}
+.kik-text-6 {
+    position: absolute;
+    height: 30px;
+    left: 680px;
+    right: 2px;
+    top: 4500px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-7 {
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 100px;
+    top: 4700px;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-8 {
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 100px;
+    top: 4810px;
+    font-size:30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-text-9{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 100px;
+    top: 4900px;
+    font-size:30px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+    color: black;
+}
+.kik-icons-1{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 1510px;
+    top: 4080px;
+    list-style: none;
+}
+.kik-icons-2{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 30px;
+    top: 4280px;
+    list-style: none;
+}
+.kik-icons-3{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 1510px;
+    top: 4274px;
+    list-style: none;
+}
+.kik-icons-4{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 30px;
+    top: 4060px;
+    list-style: none;
+}
+.icons-img{
+    width: 10px;
+    height: 10px;
+}
+
+.footer{
+    background: url("../images/email/Rectangle (6).svg") center/cover no-repeat;
+    height: 100px;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+.footer-title{
+    font-size:18px;
+    margin-bottom:28px;
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+
+}
+.footer-title-1{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 30px;
+    top: 5215px;
+    font-size:18px;
+    margin-bottom:28px;
+    color: white;
+}
+.footer-title-2{
+    position: absolute;
+    height: 30px;
+    left: 930px;
+    right: 30px;
+    top: 5215px;
+    font-size:18px;
+    margin-bottom:28px;
+    color: white;
+
+}
+.footer-text{
+    font-size: 12px;
+
+}
+.footer-link{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 855px;
+    top: 5235px;
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+.footer-link-1{
+    position: absolute;
+    height: 30px;
+    left: 50px;
+    right: 30px;
+    top: 5235px;
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+.footer-link-2{
+    position: absolute;
+    height: 30px;
+    left: 900px;
+    right: 3px;
+    top: 5235px;
+    list-style: none;
+    font-size: 12px;
+    color: white;
+}
+.arrowUP{
+    bottom: 5%;
+    right: 3%;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    background:  linear-gradient(130deg, #858e97 50%, #398a99);
+    webkit-box-size: 300%;
+    background-size: 300%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 50px;
+    border-radius: 5px;
+    transition: .5s;
+    position: fixed;
+}
+.arrowUP:hover {
+    background-position: 100% 0;
+}
